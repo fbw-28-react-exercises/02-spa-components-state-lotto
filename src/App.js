@@ -1,13 +1,13 @@
-
 import React from 'react';
+import './App.css';
+import LuckyNumbers from './components/lucky-numbers';
 
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <LuckyNumbers />
     </div>
   );
 }
-
 
 export default App;
